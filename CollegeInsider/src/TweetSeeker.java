@@ -18,7 +18,7 @@ public static void main(String[] args) {
     twitter.setOAuthAccessToken(accessToken);
 
     try {
-        Query query = new Query("#daudkhan003");
+        Query query = new Query("#anysearchkey");
         QueryResult result;
         result = twitter.search(query);
         List<Status> tweets = result.getTweets();
